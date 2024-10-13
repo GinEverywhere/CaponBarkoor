@@ -1,0 +1,128 @@
+/* Color Palette is inspired with Pedegree and PetExpress Website as much as possible */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9; 
+}
+
+.navbar-container {
+  width: 100%;
+  background-color: #f39c12;
+}
+
+.navbar {
+  max-width: 1200px;
+  height: 75px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 110px;
+  border-radius: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #ecf0f1;
+}
+
+/* I get the photo from The Cat House PH from FB https://www.facebook.com/solaandsiblings */
+
+.main-content {
+  text-align: center;
+  padding: 50px 20px;
+  background: url(TCH.jpg) no-repeat center center; 
+  background-size: cover;
+  height: auto;
+  color: white;
+}
+
+.hero {
+  padding: 50px 20px;
+  background-color: rgba(52, 152, 219, 0.8); 
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.section {
+  padding: 20px;
+  background-color: #f5d6a7; 
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  color: #333;
+}
+
+.section h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.section p, .section ul li {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin: 10px 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 10px;
+}
